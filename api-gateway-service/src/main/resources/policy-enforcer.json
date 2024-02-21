@@ -1,0 +1,14 @@
+{
+  "realm" : "test-keycloak",
+  "auth-server-url" : "http://localhost:2024/",
+  "resource" : "api-gateway",
+  "credentials" : {
+    "secret" : "NGpYDZ1f35qW5nyGON6GwjiWgyCQfife"
+  },
+  "paths" : [{
+    "path" : "/home",
+    "enforcement-mode" : "DISABLED"
+  }
+  ]
+}
+
